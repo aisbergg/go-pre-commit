@@ -25,6 +25,7 @@ You can add these to your project's `.pre-commit-config.yaml`:
     - id: gofumpt
     - id: golangci-lint
     - id: golint
+    - id: revive
     - id: staticcheck
     - id: go-mod-tidy
 ```
