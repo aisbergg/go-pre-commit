@@ -37,6 +37,12 @@ repos:
         files: '\.go$'
         language: system
         description: Check your Go code with golint
+      - id: revive
+        name: revive
+        entry: go-pre-commit revive
+        files: '\.go$'
+        language: system
+        description: Check your Go code with revive
       - id: go-mod-tidy
         name: go-mod-tidy
         entry: go-pre-commit go-mod-tidy

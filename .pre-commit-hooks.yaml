@@ -46,6 +46,12 @@
   files: '\.go$'
   language: system
   description: Check your Go code with golint
+- id: revive
+  name: revive
+  entry: go-pre-commit revive
+  files: '\.go$'
+  language: system
+  description: Check your Go source code with revive
 - id: staticcheck
   name: staticcheck
   entry: go-pre-commit staticcheck
