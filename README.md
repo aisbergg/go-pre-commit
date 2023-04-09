@@ -10,12 +10,12 @@ This should work on Windows, Linux, Mac, and basically anything Golang does (tho
 
 ## Using the hooks
 
-You need to first install the binary from here, `go install github.com/lietu/go-pre-commit@latest`
+You need to first install the binary from here, `go install github.com/aisbergg/go-pre-commit@latest`
 
 You can add these to your project's `.pre-commit-config.yaml`:
 
 ```yaml
-- repo: https://github.com/lietu/go-pre-commit
+- repo: https://github.com/aisbergg/go-pre-commit
   rev: master
   hooks:
     - id: errcheck
